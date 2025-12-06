@@ -1,0 +1,3 @@
+# smart-tea-estate-management-system
+
+The Smart Tea Estate Management System (STEMS) is a data-driven solution designed to optimize critical tea production activities. By leveraging machine learning, the system addresses major industry challenges like labor shortages and inefficient resource management. STEMS focuses on generating crucial predictions, including the optimal harvest window , fertilizer schedules , labor requirements based on projected yield , and detailed soil quality analysis. This allows tea estate managers and workers to transition from manual predictions to data-driven decisions, ensuring higher efficiency, reduced waste, and improved overall plantation productivity
