@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="Changes in Data Preprocessing">
+    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="Trained an XGBoost Model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/productivity_prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivity_prediction.ipynb" afterDir="false" />
     </list>
@@ -94,7 +94,7 @@
       <workItem from="1770624353142" duration="387000" />
       <workItem from="1770624866561" duration="4823000" />
       <workItem from="1770637060686" duration="2520000" />
-      <workItem from="1770639815308" duration="1490000" />
+      <workItem from="1770639815308" duration="4078000" />
     </task>
     <task id="LOCAL-00001" summary="Changes in Data Preprocessing">
       <option name="closed" value="true" />
@@ -104,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770220297612</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Trained an XGBoost Model">
+      <option name="closed" value="true" />
+      <created>1770656060607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770656060607</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project setup: add .gitignore, project structure, first notebook" />
     <MESSAGE value="Changes in Data Preprocessing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in Data Preprocessing" />
+    <MESSAGE value="Trained an XGBoost Model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trained an XGBoost Model" />
   </component>
 </project>
