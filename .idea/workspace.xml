@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="Trained on CatBoost Model">
+    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="Trained on LightGBM Model">
+      <change afterPath="$PROJECT_DIR$/Notebooks/productivity_using_satellite_data.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebooks/productivity_prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivity_prediction.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,10 @@
       <workItem from="1771160706109" duration="11944000" />
       <workItem from="1771228824029" duration="433000" />
       <workItem from="1771229285915" duration="178000" />
-      <workItem from="1771229505208" duration="1251000" />
+      <workItem from="1771229505208" duration="2722000" />
+      <workItem from="1771319602649" duration="115000" />
+      <workItem from="1771636607845" duration="1720000" />
+      <workItem from="1771726420078" duration="3047000" />
     </task>
     <task id="LOCAL-00001" summary="Changes in Data Preprocessing">
       <option name="closed" value="true" />
@@ -142,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771173809517</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Trained on LightGBM Model">
+      <option name="closed" value="true" />
+      <created>1771230861350</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771230861351</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +177,7 @@
     <MESSAGE value="Trained data on SARIMAX model" />
     <MESSAGE value="added seasonality encoding" />
     <MESSAGE value="Trained on CatBoost Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trained on CatBoost Model" />
+    <MESSAGE value="Trained on LightGBM Model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trained on LightGBM Model" />
   </component>
 </project>
