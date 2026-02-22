@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="Tried the XGBoost model on the dataset with NDVI">
+    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="Tried LightGBM with dataset including NDVI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/productivity_using_satellite_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivity_using_satellite_data.ipynb" afterDir="false" />
     </list>
@@ -103,7 +103,8 @@
       <workItem from="1771229505208" duration="2722000" />
       <workItem from="1771319602649" duration="115000" />
       <workItem from="1771636607845" duration="1720000" />
-      <workItem from="1771726420078" duration="7121000" />
+      <workItem from="1771726420078" duration="7515000" />
+      <workItem from="1771776016067" duration="900000" />
     </task>
     <task id="LOCAL-00001" summary="Changes in Data Preprocessing">
       <option name="closed" value="true" />
@@ -185,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771763395818</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tried LightGBM with dataset including NDVI">
+      <option name="closed" value="true" />
+      <created>1771764096849</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771764096849</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +222,7 @@
     <MESSAGE value="Trained using additional satellite data for the catboost model" />
     <MESSAGE value="Handled the outliers of NDVI" />
     <MESSAGE value="Tried the XGBoost model on the dataset with NDVI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tried the XGBoost model on the dataset with NDVI" />
+    <MESSAGE value="Tried LightGBM with dataset including NDVI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tried LightGBM with dataset including NDVI" />
   </component>
 </project>
