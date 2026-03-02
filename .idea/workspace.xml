@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="Normalized Data to increase accuracy and tested out on models">
-      <change afterPath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_03.ipynb" afterDir="false" />
+    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="removed T2M and irradiance and added EVI and tested out the models">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_02.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_02.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_03.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_03.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,8 @@
       <workItem from="1771726420078" duration="7515000" />
       <workItem from="1771776016067" duration="2647000" />
       <workItem from="1771811512257" duration="14346000" />
-      <workItem from="1771922676012" duration="1283000" />
+      <workItem from="1771922676012" duration="8631000" />
+      <workItem from="1771978481442" duration="18577000" />
     </task>
     <task id="LOCAL-00001" summary="Changes in Data Preprocessing">
       <option name="closed" value="true" />
@@ -221,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771900612057</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="removed T2M and irradiance and added EVI and tested out the models">
+      <option name="closed" value="true" />
+      <created>1771924465508</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1771924465508</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +262,7 @@
     <MESSAGE value="Tried Random forest regressor on the dataset including NDVI" />
     <MESSAGE value="Tried the dataset on an ensemble of catboost and xgboost using simple averaging ensemble" />
     <MESSAGE value="Normalized Data to increase accuracy and tested out on models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Normalized Data to increase accuracy and tested out on models" />
+    <MESSAGE value="removed T2M and irradiance and added EVI and tested out the models" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed T2M and irradiance and added EVI and tested out the models" />
   </component>
 </project>
