@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="feat(data): experiment with dropping null target values to check if it improves model">
+    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="feat(data): add 12-month yield lag to capture seasonality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_03.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_03.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_04.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_04.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,6 +120,7 @@
       <workItem from="1773411391818" duration="560000" />
       <workItem from="1773411996892" duration="3521000" />
       <workItem from="1773416809747" duration="3016000" />
+      <workItem from="1773420958634" duration="755000" />
     </task>
     <task id="LOCAL-00001" summary="Changes in Data Preprocessing">
       <option name="closed" value="true" />
@@ -298,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773404611349</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feat(data): add 12-month yield lag to capture seasonality">
+      <option name="closed" value="true" />
+      <created>1773421310666</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1773421310666</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +346,7 @@
     <MESSAGE value="Tested the model with PCA" />
     <MESSAGE value="feat(data): implement target scaling for yield prediction" />
     <MESSAGE value="feat(data): experiment with dropping null target values to check if it improves model" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(data): experiment with dropping null target values to check if it improves model" />
+    <MESSAGE value="feat(data): add 12-month yield lag to capture seasonality" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(data): add 12-month yield lag to capture seasonality" />
   </component>
 </project>
