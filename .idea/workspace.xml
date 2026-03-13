@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="tested the model by adding rolling averages">
+    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="Tested the model with PCA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_03.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_03.ipynb" afterDir="false" />
     </list>
@@ -114,7 +114,8 @@
       <workItem from="1772437005782" duration="800000" />
       <workItem from="1772437838269" duration="11857000" />
       <workItem from="1772501890222" duration="1430000" />
-      <workItem from="1772684442172" duration="11125000" />
+      <workItem from="1772684442172" duration="18907000" />
+      <workItem from="1772881462056" duration="17533000" />
     </task>
     <task id="LOCAL-00001" summary="Changes in Data Preprocessing">
       <option name="closed" value="true" />
@@ -268,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772712570437</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Tested the model with PCA">
+      <option name="closed" value="true" />
+      <created>1772723258238</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1772723258238</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +314,7 @@
     <MESSAGE value="Imputed 'wet days' using median to increase R^2" />
     <MESSAGE value="Tried SARIMAX model after cyclic encoding" />
     <MESSAGE value="tested the model by adding rolling averages" />
-    <option name="LAST_COMMIT_MESSAGE" value="tested the model by adding rolling averages" />
+    <MESSAGE value="Tested the model with PCA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested the model with PCA" />
   </component>
 </project>
