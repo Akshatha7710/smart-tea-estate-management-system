@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="feat(data): implement target scaling for yield prediction">
-      <change afterPath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_04.ipynb" afterDir="false" />
+    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="feat(data): experiment with dropping null target values to check if it improves model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_03.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_03.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_04.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_04.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,10 @@
       <workItem from="1772501890222" duration="1430000" />
       <workItem from="1772684442172" duration="18907000" />
       <workItem from="1772881462056" duration="17533000" />
-      <workItem from="1773395417426" duration="5738000" />
+      <workItem from="1773395417426" duration="11021000" />
+      <workItem from="1773411391818" duration="560000" />
+      <workItem from="1773411996892" duration="3521000" />
+      <workItem from="1773416809747" duration="3016000" />
     </task>
     <task id="LOCAL-00001" summary="Changes in Data Preprocessing">
       <option name="closed" value="true" />
@@ -287,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773398806619</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat(data): experiment with dropping null target values to check if it improves model">
+      <option name="closed" value="true" />
+      <created>1773404611349</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1773404611349</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +337,7 @@
     <MESSAGE value="tested the model by adding rolling averages" />
     <MESSAGE value="Tested the model with PCA" />
     <MESSAGE value="feat(data): implement target scaling for yield prediction" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(data): implement target scaling for yield prediction" />
+    <MESSAGE value="feat(data): experiment with dropping null target values to check if it improves model" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(data): experiment with dropping null target values to check if it improves model" />
   </component>
 </project>
