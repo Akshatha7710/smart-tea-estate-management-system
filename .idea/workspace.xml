@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="feat(eng): replace total_workforce with yield_momentum to improve XGBoost performance">
+    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="feat: add visualizations for model predictions to display results to users">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_04.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_04.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/productivity_prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivity_prediction.ipynb" afterDir="false" />
@@ -130,7 +130,7 @@
       <workItem from="1773460963670" duration="2688000" />
       <workItem from="1773464098249" duration="254000" />
       <workItem from="1773472750041" duration="3082000" />
-      <workItem from="1773475892743" duration="9987000" />
+      <workItem from="1773475892743" duration="15832000" />
     </task>
     <task id="LOCAL-00001" summary="Changes in Data Preprocessing">
       <option name="closed" value="true" />
@@ -340,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773464278714</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feat: add visualizations for model predictions to display results to users">
+      <option name="closed" value="true" />
+      <created>1773628074897</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1773628074897</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +366,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changes in Data Preprocessing" />
     <MESSAGE value="Trained an XGBoost Model" />
     <MESSAGE value="Trained data on SARIMAX model" />
     <MESSAGE value="added seasonality encoding" />
@@ -383,6 +390,7 @@
     <MESSAGE value="feat(data): remove NDVI feature to assess model performance" />
     <MESSAGE value="feat(data): add 3-month rolling average of rainfall to test model performance" />
     <MESSAGE value="feat(eng): replace total_workforce with yield_momentum to improve XGBoost performance" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(eng): replace total_workforce with yield_momentum to improve XGBoost performance" />
+    <MESSAGE value="feat: add visualizations for model predictions to display results to users" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add visualizations for model predictions to display results to users" />
   </component>
 </project>
