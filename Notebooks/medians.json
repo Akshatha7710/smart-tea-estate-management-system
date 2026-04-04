@@ -1,0 +1,73 @@
+{
+  "rainfall": {
+    "April": 361.0,
+    "August": 1005.0,
+    "December": 223.0,
+    "February": 83.5,
+    "January": 58.0,
+    "July": 672.0,
+    "June": 509.5,
+    "March": 228.0,
+    "May": 798.5,
+    "November": 303.0,
+    "October": 639.5,
+    "September": 512.0
+  },
+  "wet_days": {
+    "April": 17.0,
+    "August": 20.0,
+    "December": 11.5,
+    "February": 6.5,
+    "January": 8.0,
+    "July": 23.0,
+    "June": 22.0,
+    "March": 9.0,
+    "May": 21.0,
+    "November": 17.0,
+    "October": 25.5,
+    "September": 21.0
+  },
+  "irradiance_SW_DWN": {
+    "April": 5.5163,
+    "August": 4.8228,
+    "December": 4.486549999999999,
+    "February": 5.72495,
+    "January": 5.265499999999999,
+    "July": 4.8826,
+    "June": 4.8931000000000004,
+    "March": 5.593,
+    "May": 4.73385,
+    "November": 4.7112,
+    "October": 4.3931000000000004,
+    "September": 4.5593
+  },
+  "NDVI": {
+    "April": 0.63098,
+    "August": 0.643193,
+    "December": 0.715949,
+    "February": 0.5604009999999999,
+    "January": 0.6870645,
+    "July": 0.5650875,
+    "June": 0.72488,
+    "March": 0.621208,
+    "May": 0.646556,
+    "November": 0.685458,
+    "October": 0.641224,
+    "September": 0.669513
+  },
+  "EVI": {
+    "April": 0.512341,
+    "August": 0.5597455,
+    "December": 0.5289895,
+    "February": 0.4949515,
+    "January": 0.514096,
+    "July": 0.5797585,
+    "June": 0.573492,
+    "March": 0.484504,
+    "May": 0.549066,
+    "November": 0.533802,
+    "October": 0.549965,
+    "September": 0.554346
+  },
+  "rainfall_lag_1": 403.0
+}
