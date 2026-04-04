@@ -1,0 +1,43 @@
+{
+  "estate_pH_map": {
+    "Agraoya": 5.363333333333333,
+    "Lower Dandukellawa": 4.611,
+    "Lower Vellaioya": 4.398666666666667,
+    "Upper Dandukellawa": 4.455384615384616,
+    "Upper Vellaioya": 5.507222222222222
+  },
+  "category_pH_map": {
+    "A": 4.622,
+    "B": 4.7695,
+    "C": 5.158636363636363
+  },
+  "estate_C_map": {
+    "Agraoya": 1.7366666666666666,
+    "Lower Dandukellawa": 2.207,
+    "Lower Vellaioya": 2.4873333333333334,
+    "Upper Dandukellawa": 1.676153846153846,
+    "Upper Vellaioya": 2.335
+  },
+  "category_C_map": {
+    "A": 1.9845,
+    "B": 2.331,
+    "C": 2.1504545454545454
+  },
+  "global_pH_mean": 4.860000000000001,
+  "global_C_mean": 2.1551612903225807,
+  "month_order": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "SURVEY_YEAR": 2023
+}
