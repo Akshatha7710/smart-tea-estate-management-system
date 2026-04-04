@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="feat: add visualizations for model predictions to display results to users">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_04.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_04.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/productivity_prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivity_prediction.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AayeshaF&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Akshatha7710/smart-tea-estate-management-system.git&quot;,
+    &quot;accountId&quot;: &quot;5d639cf6-0243-4303-8bc8-608b5389b170&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="38Nl9IuNeka87Jeygw5vKUgOdBW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;estate-productivity-prediction-model&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/PycharmProjects/STEMS/Data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\PycharmProjects\STEMS\Data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\PycharmProjects\STEMS\Data" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
+        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="" />
+      <created>1768647756515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768647756515</updated>
+      <workItem from="1768647757541" duration="9633000" />
+      <workItem from="1768813565057" duration="2571000" />
+      <workItem from="1769971706013" duration="14648000" />
+      <workItem from="1770282386893" duration="1430000" />
+      <workItem from="1770346451237" duration="9661000" />
+      <workItem from="1770394158130" duration="4375000" />
+      <workItem from="1770486443286" duration="8753000" />
+      <workItem from="1770623489370" duration="683000" />
+      <workItem from="1770624353142" duration="387000" />
+      <workItem from="1770624866561" duration="4823000" />
+      <workItem from="1770637060686" duration="2520000" />
+      <workItem from="1770639815308" duration="5415000" />
+      <workItem from="1770872811754" duration="1872000" />
+      <workItem from="1771126632192" duration="3765000" />
+      <workItem from="1771160706109" duration="11944000" />
+      <workItem from="1771228824029" duration="433000" />
+      <workItem from="1771229285915" duration="178000" />
+      <workItem from="1771229505208" duration="2722000" />
+      <workItem from="1771319602649" duration="115000" />
+      <workItem from="1771636607845" duration="1720000" />
+      <workItem from="1771726420078" duration="7515000" />
+      <workItem from="1771776016067" duration="2647000" />
+      <workItem from="1771811512257" duration="14346000" />
+      <workItem from="1771922676012" duration="8631000" />
+      <workItem from="1771978481442" duration="18577000" />
+      <workItem from="1772413975680" duration="5158000" />
+      <workItem from="1772430215275" duration="887000" />
+      <workItem from="1772434930605" duration="349000" />
+      <workItem from="1772437005782" duration="800000" />
+      <workItem from="1772437838269" duration="11857000" />
+      <workItem from="1772501890222" duration="1430000" />
+      <workItem from="1772684442172" duration="18907000" />
+      <workItem from="1772881462056" duration="17533000" />
+      <workItem from="1773395417426" duration="11021000" />
+      <workItem from="1773411391818" duration="560000" />
+      <workItem from="1773411996892" duration="3521000" />
+      <workItem from="1773416809747" duration="3016000" />
+      <workItem from="1773420958634" duration="2886000" />
+      <workItem from="1773424203892" duration="89000" />
+      <workItem from="1773424304442" duration="309000" />
+      <workItem from="1773424631103" duration="2152000" />
+      <workItem from="1773447745633" duration="6140000" />
+      <workItem from="1773459578104" duration="1352000" />
+      <workItem from="1773460963670" duration="2688000" />
+      <workItem from="1773464098249" duration="254000" />
+      <workItem from="1773472750041" duration="3082000" />
+      <workItem from="1773475892743" duration="15832000" />
+    </task>
+    <task id="LOCAL-00001" summary="Changes in Data Preprocessing">
+      <option name="closed" value="true" />
+      <created>1770220297612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770220297612</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Trained an XGBoost Model">
+      <option name="closed" value="true" />
+      <created>1770656060607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770656060607</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Trained data on SARIMAX model">
+      <option name="closed" value="true" />
+      <created>1770658883637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770658883637</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added seasonality encoding">
+      <option name="closed" value="true" />
+      <created>1771170956758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771170956758</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Trained on CatBoost Model">
+      <option name="closed" value="true" />
+      <created>1771173809517</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771173809517</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Trained on LightGBM Model">
+      <option name="closed" value="true" />
+      <created>1771230861350</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771230861351</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Trained using additional satellite data for the catboost model">
+      <option name="closed" value="true" />
+      <created>1771747607298</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771747607298</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Handled the outliers of NDVI">
+      <option name="closed" value="true" />
+      <created>1771759185382</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771759185382</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Handled the outliers of NDVI">
+      <option name="closed" value="true" />
+      <created>1771763173028</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771763173028</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tried the XGBoost model on the dataset with NDVI">
+      <option name="closed" value="true" />
+      <created>1771763395818</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771763395818</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Tried LightGBM with dataset including NDVI">
+      <option name="closed" value="true" />
+      <created>1771764096849</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771764096849</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Tried Random forest regressor on the dataset including NDVI">
+      <option name="closed" value="true" />
+      <created>1771777368199</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771777368199</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Tried the dataset on an ensemble of catboost and xgboost using simple averaging ensemble">
+      <option name="closed" value="true" />
+      <created>1771815157704</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771815157704</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Normalized Data to increase accuracy and tested out on models">
+      <option name="closed" value="true" />
+      <created>1771900612057</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771900612057</updated>
+    </task>
+    <task id="LOCAL-00015" summary="removed T2M and irradiance and added EVI and tested out the models">
+      <option name="closed" value="true" />
+      <created>1771924465508</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1771924465508</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Handled the other outlier in EVI">
+      <option name="closed" value="true" />
+      <created>1772414648831</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1772414648831</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Imputed 'wet days' using median to increase R^2">
+      <option name="closed" value="true" />
+      <created>1772446663108</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1772446663108</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Tried SARIMAX model after cyclic encoding">
+      <option name="closed" value="true" />
+      <created>1772502274102</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1772502274102</updated>
+    </task>
+    <task id="LOCAL-00019" summary="tested the model by adding rolling averages">
+      <option name="closed" value="true" />
+      <created>1772712570437</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1772712570437</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Tested the model with PCA">
+      <option name="closed" value="true" />
+      <created>1772723258238</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1772723258238</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat(data): implement target scaling for yield prediction">
+      <option name="closed" value="true" />
+      <created>1773398806619</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1773398806619</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat(data): experiment with dropping null target values to check if it improves model">
+      <option name="closed" value="true" />
+      <created>1773404611349</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1773404611349</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat(data): add 12-month yield lag to capture seasonality">
+      <option name="closed" value="true" />
+      <created>1773421310666</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1773421310666</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat(data): remove NDVI feature to assess model performance">
+      <option name="closed" value="true" />
+      <created>1773421778779</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1773421778779</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat(data): add 3-month rolling average of rainfall to test model performance">
+      <option name="closed" value="true" />
+      <created>1773423799757</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1773423799757</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat(eng): replace total_workforce with yield_momentum to improve XGBoost performance">
+      <option name="closed" value="true" />
+      <created>1773464278714</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1773464278714</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: add visualizations for model predictions to display results to users">
+      <option name="closed" value="true" />
+      <created>1773628074897</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1773628074897</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Trained an XGBoost Model" />
+    <MESSAGE value="Trained data on SARIMAX model" />
+    <MESSAGE value="added seasonality encoding" />
+    <MESSAGE value="Trained on CatBoost Model" />
+    <MESSAGE value="Trained on LightGBM Model" />
+    <MESSAGE value="Trained using additional satellite data for the catboost model" />
+    <MESSAGE value="Handled the outliers of NDVI" />
+    <MESSAGE value="Tried the XGBoost model on the dataset with NDVI" />
+    <MESSAGE value="Tried LightGBM with dataset including NDVI" />
+    <MESSAGE value="Tried Random forest regressor on the dataset including NDVI" />
+    <MESSAGE value="Tried the dataset on an ensemble of catboost and xgboost using simple averaging ensemble" />
+    <MESSAGE value="Normalized Data to increase accuracy and tested out on models" />
+    <MESSAGE value="removed T2M and irradiance and added EVI and tested out the models" />
+    <MESSAGE value="Handled the other outlier in EVI" />
+    <MESSAGE value="Imputed 'wet days' using median to increase R^2" />
+    <MESSAGE value="Tried SARIMAX model after cyclic encoding" />
+    <MESSAGE value="tested the model by adding rolling averages" />
+    <MESSAGE value="Tested the model with PCA" />
+    <MESSAGE value="feat(data): implement target scaling for yield prediction" />
+    <MESSAGE value="feat(data): experiment with dropping null target values to check if it improves model" />
+    <MESSAGE value="feat(data): add 12-month yield lag to capture seasonality" />
+    <MESSAGE value="feat(data): remove NDVI feature to assess model performance" />
+    <MESSAGE value="feat(data): add 3-month rolling average of rainfall to test model performance" />
+    <MESSAGE value="feat(eng): replace total_workforce with yield_momentum to improve XGBoost performance" />
+    <MESSAGE value="feat: add visualizations for model predictions to display results to users" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add visualizations for model predictions to display results to users" />
+  </component>
+</project>
