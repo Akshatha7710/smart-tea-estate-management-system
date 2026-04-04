@@ -439,15 +439,21 @@ def predict_productivity(data: ProductivityInput):
     # Fill missing NDVI/EVI/irradiance/rainfall_lag_1 using medians
     row_data = rows.iloc[0].copy()
     month_name = str(data.month).capitalize()
-    for col in ["NDVI","EVI","irradiance_SW_DWN"]:
+    for col in ["NDVI","EVI","irradiance_SW_DWN","rainfall","wet_days"]:
         if pd.isna(row_data.get(col)):
             row_data[col] = PROD_MEDIANS.get(col, {}).get(month_name, 0)
     if pd.isna(row_data.get("rainfall_lag_1")):
         row_data["rainfall_lag_1"] = PROD_MEDIANS.get("rainfall_lag_1", 403.0)
+    # Fix irradiance sentinel value -999
+    if not pd.isna(row_data.get("irradiance_SW_DWN")):
+        try:
+            if float(row_data["irradiance_SW_DWN"]) == -999:
+                row_data["irradiance_SW_DWN"] = PROD_MEDIANS.get("irradiance_SW_DWN", {}).get(month_name, 5.0)
+        except:
+            pass
 
     row          = row_data  # row_data has medians filled for missing values
 
-    # Fill missing yield lags — CSV now has proper historical proxies for 2026
     import math
     def _safe(val, fallback):
         try:
@@ -456,16 +462,47 @@ def predict_productivity(data: ProductivityInput):
         except:
             return fallback
 
-    lag12    = _safe(row.get("yield_lag_12"), 35000.0)
-    lag1     = _safe(row.get("yield_lag_1"),  lag12)
-    lag2     = _safe(row.get("yield_lag_2"),  lag1)
-    lag3     = _safe(row.get("yield_lag_3"),  lag2)
-    # Use CSV momentum if available, otherwise compute from lag1 and lag3
-    csv_mom  = row.get("yield_momentum")
-    try:
-        momentum = float(csv_mom) if csv_mom is not None and not math.isnan(float(csv_mom)) else lag1 - lag3
-    except:
-        momentum = lag1 - lag3
+    # Compute sin_month and cos_month at runtime from month_num
+    month_num_val = int(row.get("month_num", 1)) if row.get("month_num") is not None else         {"January":1,"February":2,"March":3,"April":4,"May":5,"June":6,
+         "July":7,"August":8,"September":9,"October":10,"November":11,"December":12
+         }.get(str(data.month).capitalize(), 1)
+    sin_month_val = math.sin(2 * math.pi * month_num_val / 12)
+    cos_month_val = math.cos(2 * math.pi * month_num_val / 12)
+
+    # Compute lag features at runtime from PROD_DATA sorted by time
+    prod_sorted = PROD_DATA.sort_values(["year","month_num"]).reset_index(drop=True)
+    req_idx = prod_sorted[(prod_sorted["year"]==int(data.year)) &
+                          (prod_sorted["month"]==str(data.month).capitalize())].index
+    if len(req_idx) > 0:
+        idx = req_idx[0]
+        def get_yield_at(offset):
+            i = idx - offset
+            if i >= 0:
+                v = prod_sorted.iloc[i]["yield"]
+                try:
+                    f = float(v)
+                    return f if not math.isnan(f) else np.nan
+                except:
+                    return np.nan
+            return np.nan
+        lag1_raw  = get_yield_at(1)
+        lag2_raw  = get_yield_at(2)
+        lag3_raw  = get_yield_at(3)
+        lag12_raw = get_yield_at(12)
+        rain_lag1_raw = np.nan
+        i1 = idx - 1
+        if i1 >= 0:
+            try: rain_lag1_raw = float(prod_sorted.iloc[i1]["rainfall"])
+            except: pass
+    else:
+        lag1_raw = lag2_raw = lag3_raw = lag12_raw = rain_lag1_raw = np.nan
+
+    lag12    = _safe(lag12_raw, 35000.0)
+    lag1     = _safe(lag1_raw,  lag12)
+    lag2     = _safe(lag2_raw,  lag1)
+    lag3     = _safe(lag3_raw,  lag2)
+    momentum = lag1 - lag3
+    rain_lag1_val = _safe(rain_lag1_raw, _safe(row.get("rainfall_lag_1"), 403.0))
 
     total_wf     = data.female_workforce + data.male_workforce
     female_ratio = data.female_workforce / total_wf if total_wf > 0 else 0.5
@@ -480,10 +517,10 @@ def predict_productivity(data: ProductivityInput):
         "yield_lag_2":           lag2,
         "yield_lag_3":           lag3,
         "yield_lag_12":          lag12,
-        "rainfall_lag_1":        _safe(row.get("rainfall_lag_1"), 403.0),
+        "rainfall_lag_1":        rain_lag1_val,
         "irradiance_SW_DWN":     _safe(row.get("irradiance_SW_DWN"), 5.0),
-        "sin_month":             float(row["sin_month"]),
-        "cos_month":             float(row["cos_month"]),
+        "sin_month":             sin_month_val,
+        "cos_month":             cos_month_val,
         "NDVI":                  _safe(row.get("NDVI"), 0.6),
         "EVI":                   _safe(row.get("EVI"), 0.54),
         "yield_momentum":        momentum,
@@ -544,7 +581,7 @@ def predict_productivity(data: ProductivityInput):
 
 @app.get("/productivity/months")
 def get_productivity_months():
-    available = PROD_DATA[PROD_DATA["yield_lag_1"].notna()][["year","month","month_num"]]
+    available = PROD_DATA[PROD_DATA["yield"].notna() | PROD_DATA["year"].isin([2025,2026])][["year","month","month_num"]]
     available = available.drop_duplicates().sort_values(["year","month_num"])
     return {
         "available": [
