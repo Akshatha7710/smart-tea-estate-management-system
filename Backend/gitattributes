@@ -1,7 +1,0 @@
-models/fertilizer.pkl filter=lfs diff=lfs merge=lfs -text
-models/productivity-model.pkl filter=lfs diff=lfs merge=lfs -text
-models/soil-model-1.pkl filter=lfs diff=lfs merge=lfs -text
-models/soil-model-2.pkl filter=lfs diff=lfs merge=lfs -text
-models/fertilizer_model_amount.pkl filter=lfs diff=lfs merge=lfs -text
-models/fertilizer_model_days.pkl filter=lfs diff=lfs merge=lfs -text
-models/xgb_model.pkl filter=lfs diff=lfs merge=lfs -text
