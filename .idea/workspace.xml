@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="feat: add visualizations for model predictions to display results to users">
+    <list default="true" id="54855f89-117a-410e-8d8c-9e4806b023d5" name="Changes" comment="Updated all file paths">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_04.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_04.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebooks/productivity_prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/productivity_prediction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FertilizerSchedule.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FertilizerSchedule.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Akshatha7710/smart-tea-estate-management-system.git&quot;,
-    &quot;accountId&quot;: &quot;5d639cf6-0243-4303-8bc8-608b5389b170&quot;
+    &quot;accountId&quot;: &quot;37ae8aae-bf4a-4207-a5cc-1c89b9c5611a&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -44,23 +44,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;estate-productivity-prediction-model&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/PycharmProjects/STEMS/Data&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "fertilizer-scheduling-model",
+    "last_opened_file_path": "D:/VIDUNI/IIT/Stage 02/DSGP/smart-tea-estate-management-system",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\PycharmProjects\STEMS\Data" />
@@ -72,14 +74,14 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
-        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.142" />
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ef2d4677-59d7-4f7b-a47e-7c6723bebcb6" name="Changes" comment="" />
+      <changelist id="54855f89-117a-410e-8d8c-9e4806b023d5" name="Changes" comment="Updated all file paths" />
       <created>1768647756515</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -131,6 +133,8 @@
       <workItem from="1773464098249" duration="254000" />
       <workItem from="1773472750041" duration="3082000" />
       <workItem from="1773475892743" duration="15832000" />
+      <workItem from="1775377782232" duration="4000" />
+      <workItem from="1775377812815" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="Changes in Data Preprocessing">
       <option name="closed" value="true" />
