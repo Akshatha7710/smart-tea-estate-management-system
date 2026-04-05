@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54855f89-117a-410e-8d8c-9e4806b023d5" name="Changes" comment="Fixed file path error">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/EstateDataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Estate_EVI_Monthly_2016_2025_Scaled.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Estate_NDVI_Monthly_2016_2025_all_months.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/ProductionForecastingDataset.csv" beforeDir="false" />
+    <list default="true" id="54855f89-117a-410e-8d8c-9e4806b023d5" name="Changes" comment="Deleted files">
+      <change beforePath="$PROJECT_DIR$/FertilizerSchedule.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FertilizerSchedule.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/medians.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_02.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_03.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/productivityPredictionUsingSatelliteData_04.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/productivity_prediction.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/productivity_using_satellite_data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/scaler.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/xgb_model.pkl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,25 +60,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;fertilizer-scheduling-model&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/VIDUNI/IIT/Stage 02/DSGP/smart-tea-estate-management-system&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "#8 on fertilizer-scheduling-model",
+    "last_opened_file_path": "D:/VIDUNI/IIT/Stage 02/DSGP/smart-tea-estate-management-system",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\PycharmProjects\STEMS\Data" />
@@ -148,7 +152,7 @@
       <workItem from="1775377782232" duration="4000" />
       <workItem from="1775377812815" duration="607000" />
       <workItem from="1775378537278" duration="35000" />
-      <workItem from="1775399798443" duration="780000" />
+      <workItem from="1775399798443" duration="1220000" />
     </task>
     <task id="LOCAL-00001" summary="Changes in Data Preprocessing">
       <option name="closed" value="true" />
@@ -374,7 +378,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775378154634</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Remove unnecessary files caused by accidental merge">
+      <option name="closed" value="true" />
+      <created>1775400662200</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1775400662200</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Deleted files">
+      <option name="closed" value="true" />
+      <created>1775400712355</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1775400712355</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,8 +412,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trained data on SARIMAX model" />
-    <MESSAGE value="added seasonality encoding" />
     <MESSAGE value="Trained on CatBoost Model" />
     <MESSAGE value="Trained on LightGBM Model" />
     <MESSAGE value="Trained using additional satellite data for the catboost model" />
@@ -417,6 +435,8 @@
     <MESSAGE value="feat(eng): replace total_workforce with yield_momentum to improve XGBoost performance" />
     <MESSAGE value="feat: add visualizations for model predictions to display results to users" />
     <MESSAGE value="Fixed file path error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed file path error" />
+    <MESSAGE value="Remove unnecessary files caused by accidental merge" />
+    <MESSAGE value="Deleted files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted files" />
   </component>
 </project>
